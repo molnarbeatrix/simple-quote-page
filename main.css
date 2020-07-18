@@ -9,4 +9,29 @@ body {
   background-position: center;
   height: 100vh;
   width: 100vw;
+  display: table;
 }
+
+.wrapper {
+  display: table-cell;
+  position: fixed;
+  top: 4rem;
+  margin: auto 3rem;
+}
+
+.quote {
+  font-family: 'Raleway', serif;
+  font-size: 3rem;
+  font-variant-caps: small-caps;
+  text-align: center;
+  color: #444359;
+}
+
+.name {
+  font-family: 'Shadows Into Light', serif;
+  font-size: 2rem;
+  font-variant-caps: small-caps;
+  color: #444359;
+  text-align: center;
+  margin-top: 2rem;
+ }
