@@ -15,8 +15,10 @@ body {
 .wrapper {
   display: table-cell;
   position: fixed;
+  min-height: 90vh;
   top: 4rem;
   margin: auto 3rem;
+  padding-bottom: 40px;
 }
 
 .quote {
@@ -35,3 +37,23 @@ body {
   text-align: center;
   margin-top: 2rem;
  }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 40px;
+  text-align: center;
+ }
+
+nav a {
+  font-family: 'Raleway', serif;
+  font-size: 1.25rem;
+  font-variant-caps: all-small-caps;
+  font-weight: 700;
+  color: #444359;
+  text-decoration: none;
+  margin: 0 .5rem;
+  display: inline-block;
+}
