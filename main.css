@@ -14,27 +14,27 @@ body {
 
 .wrapper {
   display: table-cell;
-  position: fixed;
-  min-height: 90vh;
-  top: 4rem;
-  margin: auto 3rem;
-  padding-bottom: 40px;
+  height: 100vh;
+  width: 100vw;  
+  padding-bottom: 2.5rem;
+  padding-top: 4rem;
+  text-align: center;
 }
 
 .quote {
   font-family: 'Raleway', serif;
-  font-size: 3rem;
+  font-size: 1.75rem;
   font-variant-caps: small-caps;
   text-align: center;
   color: #444359;
-}
+  margin: auto 2rem;
+  }
 
 .name {
   font-family: 'Shadows Into Light', serif;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-variant-caps: small-caps;
   color: #444359;
-  text-align: center;
   margin-top: 2rem;
  }
 
@@ -43,7 +43,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100vw;
-  height: 40px;
+  height: 3rem;
   text-align: center;
  }
 
@@ -56,4 +56,23 @@ nav a {
   text-decoration: none;
   margin: 0 .5rem;
   display: inline-block;
+}
+
+nav a:hover {
+  color: black;
+  transition: color .15s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding-top: 10rem;
+  }
+  
+  .quote, .name {
+    font-size: 3.5rem;
+    }
+  
+  nav a {
+    font-size: 2rem;
+  }
 }
